@@ -1,6 +1,7 @@
 # Spotify UI Clone
 
-Welcome to the Spotify UI Clone repository! This project is a front-end clone of the popular music streaming service, Spotify. Built using modern web technologies, this clone aims to replicate the look and feel of Spotify's user interface, providing a hands-on experience in building complex, responsive, and visually appealing web applications.
+Welcome to the Spotify UI Clone repository! This project is a front-end clone of the popular music streaming service, Spotify. Built using modern web technologies, this clone aims to replicate the look and feel of Spotify's user interface, providing a hands-on experience in building complex and visually appealing web applications.
+To see it live, [click here](https://basitmajeed.github.io/spotifyUIclone/)
 
 ## Features
 - Responsive Design: The UI is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
