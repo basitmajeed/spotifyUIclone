@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="images/spotify.svg"
+            type="image/x-icon"
+        />
+        <title>Spotify - Web Player: Music for everyone</title>
+    </head>
+    <body>
+        <!-- Navbar Starts -->
+        <nav class="flex align-center">
+            <div class="nav-left">
+                <img src="images/logo.svg" width="22" alt="logo" />
+            </div>
+
+            <div class="nav-center flex">
+                <img src="images/home.svg" width="50" alt="" />
+                <div class="search-container flex justify-center align-center">
+                    <img src="images/search.svg" width="30" alt="" />
+                    <input
+                        type="text"
+                        name="search"
+                        id="search"
+                        placeholder="What do you want to play?"
+                    />
+                    <p>|</p>
+                    <img src="images/file.svg" width="25" alt="" />
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button class="button signup">Sign Up</button>
+                <button class="button login">Login</button>
+            </div>
+        </nav>
+        <!-- Navbar Ends -->
+        <!-- Main Content Starts -->
+        <main>
+            <div class="left-pane">
+                <div class="library flex align-center">
+                    <span class="flex align-center">
+                        <img src="images/library.svg" alt="" width="25" />
+                        <h4>Your Library</h4>
+                    </span>
+                    <p>+</p>
+                </div>
+                <div class="createPlaylist shell">
+                    <h4>Create your first playlist</h4>
+                    <p>It's easy, we'll help you</p>
+                    <button class="button login">Create playlist</button>
+                </div>
+                <div class="shell browsePodcast">
+                    <h4>Let's find some podcasts to follow</h4>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button class="button login">Browse podcasts</button>
+                </div>
+                <div class="links">
+                    <div>
+                        <a href="#">Legal</a
+                        ><a href="#">Safety & Privacy Center</a
+                        ><a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                    <a href="#">About Ads</a><a href="#">Accessibility</a>
+                    <div>Cookies</div>
+                </div>
+                <div class="lang">
+                    <img src="images/globe.svg" width="20" alt="" />
+                    <span>English</span>
+                </div>
+            </div>
+            <div class="right-pane">
+                <!-- Popular Artists -->
+                <div class="heading-text flex align-center">
+                    <h2>Popular artists</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="boxes artists">
+                    <div class="box artist-box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Pritam</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="box artist-box">
+                        <img
+                            src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Arijit Singh</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="box artist-box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Sachin-Jigar</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="box artist-box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>A.R. Rehman</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="box artist-box">
+                        <img
+                            src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Vishal-Shekhar</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Popular Albums and Singles -->
+                <div class="heading-text flex align-center">
+                    <h2>Popular albums and singles</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="boxes albums">
+                    <div class="album-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>GLORY</h4>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+                    </div>
+                    <div class="album-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Ashiqui 2</h4>
+                            <p>Mithoon, Ankit Tiwari, Jeet Ganguli</p>
+                        </div>
+                    </div>
+                    <div class="album-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Patandar</h4>
+                            <p>Arjan Dhillon, Mxrci</p>
+                        </div>
+                    </div>
+                    <div class="album-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Jo Tum Mere Ho</h4>
+                            <p>Anuv Jain</p>
+                        </div>
+                    </div>
+                    <div class="album-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <h4>Making Memories</h4>
+                            <p>Karn Aujla, Ikky</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Popular Radio -->
+                <div class="heading-text flex align-center">
+                    <h2>Popular radio</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="boxes radio">
+                    <div class="radio-box box">
+                        <img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                With Sachin-Jigar, Amit Trivedi, Mithoon and
+                                more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="radio-box box">
+                        <img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                With Karan Aujla, Shubh, Sidhu Moose Wala and
+                                more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="radio-box box">
+                        <img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en-GB"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                With A.R. Rahman, Vishal-Shekhar, Atif Aslam and
+                                more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="radio-box box">
+                        <img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                With Pritam, Mohit Chauhan, Armaan Malik and
+                                more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="radio-box box">
+                        <img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en-GB"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                With Mohammed Rafi, Mukesh, Asha Bhosle and more
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured Charts -->
+                <div class="heading-text flex align-center">
+                    <h2>Featured Charts</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="boxes featured">
+                    <div class="featured-box box">
+                        <img
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Your weekly update of the most played tracks
+                                right now - Global.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="featured-box box">
+                        <img
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Your weekly update of the most played tracks
+                                right now - USA.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="featured-box box">
+                        <img
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Your daily update of the most played tracks
+                                right now - Global.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="featured-box box">
+                        <img
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Your daily update of the most played tracks
+                                right now - USA.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="featured-box box">
+                        <img
+                            src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Your daily update of the most viral tracks right
+                                now - Global.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- From Editors -->
+                <div class="heading-text flex align-center">
+                    <h2>Playlists from our editors</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="boxes editors">
+                    <div class="editors-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                The perfect soundtrack to those long nights over
+                                dinner
+                            </p>
+                        </div>
+                    </div>
+                    <div class="editors-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67706f000000027c442984be422632404f3566"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>Press play and enjoy a relaxing meal. Easy!</p>
+                        </div>
+                    </div>
+                    <div class="editors-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67706f00000002f11172bf2af0daa54624cf0e"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>
+                                Bring some extra flavour to your dinner table
+                                with a smooth blend of r&b, soul, groove and
+                                vibe.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="editors-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67706f000000024fd2f505388dffac41bf82d3"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>Gentle Indie songs for a relaxed dinner.</p>
+                        </div>
+                    </div>
+                    <div class="editors-box box">
+                        <img
+                            src="https://i.scdn.co/image/ab67706f00000002ad398e356a1f616b2a91b4c0"
+                            alt=""
+                        />
+                        <img src="/images/play.svg" class="hidden play" />
+                        <div class="box-text">
+                            <p>Music to set the mood for a romantic evening.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="column">
+                        <h4>Company</h4>
+                        <p>About</p>
+                        <p>Jobs</p>
+                        <p>For the Record</p>
+                    </div>
+                    <div class="column">
+                        <h4>Communities</h4>
+                        <p>For Artists</p>
+                        <p>Developers</p>
+                        <p>Advertising</p>
+                        <p>Investors</p>
+                        <p>Vendors</p>
+                    </div>
+                    <div class="column">
+                        <h4>Useful links</h4>
+                        <p>Support</p>
+                        <p>Free Mobile App</p>
+                    </div>
+                    <div class="column">
+                        <h4>Spotify Plans</h4>
+                        <p>Premium Individual</p>
+                        <p>Premium Duo</p>
+                        <p>Premium Family</p>
+                        <p>Premium Student</p>
+                        <p>Spotify Free</p>
+                    </div>
+                    <div class="column socials">
+                        <img src="images/insta.svg" alt="" />
+                        <img src="images/twitter.svg" alt="" />
+                        <img src="images/fb.svg" alt="" />
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="copyright">© 2025 Spotify AB</div>
+            </div>
+        </main>
+        <!-- Main Content Ends -->
+    </body>
+</html>
